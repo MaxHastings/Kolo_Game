@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "F:\\Documents\\GDevelop projects\\Kolo_Game\\platformer.json",
+    "projectFile": "/Users/maxhastings/Documents/GDevelop projects/Kolo_Game/platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -724,6 +724,20 @@
         "metadata": "",
         "name": "gun.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "380-gunshot.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "380-gunshot.wav",
+        "userAdded": false
+      },
+      {
+        "file": "banana-slap.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "banana-slap.wav",
         "userAdded": false
       }
     ],
@@ -5506,7 +5520,7 @@
               },
               "parameters": [
                 "",
-                "../../../Downloads/380_gunshot_single-mike-koenig.wav",
+                "380-gunshot.wav",
                 "",
                 "50",
                 ""
@@ -5555,7 +5569,7 @@
               },
               "parameters": [
                 "",
-                "../../../Downloads/Banana_Slap-AngryFlash-2001109808.wav",
+                "banana-slap.wav",
                 "",
                 "50",
                 "0.5"
