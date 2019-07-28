@@ -1,1 +1,1 @@
-An example of a basic platformer (Mario-like) game made with GDevelop.
+An experimental basic platformer game starring Kolo's faces as the enemies. Made with GDevelop game engine.
