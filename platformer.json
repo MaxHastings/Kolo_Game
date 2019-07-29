@@ -4399,6 +4399,25 @@
           "zoneRadius": 3,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FindersKeepers",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Finders Keepers",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 40,
+            "g": 40,
+            "r": 40
+          }
         }
       ],
       "events": [
@@ -4550,6 +4569,52 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "kolo",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FindersKeepers",
+                    "kolo.X()",
+                    "kolo.Y() - 10",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "kolo",
+                    "FindersKeepers"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FindersKeepers"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -4583,6 +4648,42 @@
                 "Enemy",
                 "GooText.Variable(DistanceToParent)",
                 "Enemy.Angle() + GooText.Variable(AngleToParent)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "kolo",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "FindersKeepers",
+                "kolo"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "FindersKeepers",
+                "kolo",
+                "30",
+                "-90"
               ],
               "subInstructions": []
             }
@@ -6104,12 +6205,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "NbObjet"
+                "value": "Distance"
               },
               "parameters": [
+                "kolo",
                 "wallet",
-                ">",
-                "0"
+                "600",
+                ""
               ],
               "subInstructions": []
             }
@@ -6159,7 +6261,7 @@
               "parameters": [
                 "wallet",
                 "\"life\"",
-                "3"
+                "1"
               ],
               "subInstructions": []
             },
@@ -6196,6 +6298,28 @@
               "parameters": [
                 "Dollars",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "FindersKeepers",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "FindersKeepers",
+                "\"hide\""
               ],
               "subInstructions": []
             }
@@ -6344,6 +6468,38 @@
                 "kolo",
                 "Pathfinding",
                 "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "FindersKeepers",
+                "\"hide\"",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "FindersKeepers"
               ],
               "subInstructions": []
             }
@@ -7203,7 +7359,21 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "kolo",
+                "Player",
+                "400",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
