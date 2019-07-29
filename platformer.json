@@ -7385,7 +7385,7 @@
                 "Pathfinding",
                 "",
                 "Player.X() + 25",
-                "Player.Y() + 60"
+                "Player.Y() + 40"
               ],
               "subInstructions": []
             }
