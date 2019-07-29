@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/Users/maxhastings/Documents/GDevelop projects/Kolo_Game/platformer.json",
+    "projectFile": "F:\\Documents\\GDevelop projects\\Kolo_Game\\platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -789,7 +789,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1
+        "zoomFactor": 1.144
       },
       "objectsGroups": [
         {
@@ -2107,66 +2107,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 78.2958,
-          "layer": "GUI",
-          "locked": false,
-          "name": "LeftButton",
-          "width": 97.5489,
-          "x": 39,
-          "y": 448,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 76.5471,
-          "layer": "GUI",
-          "locked": false,
-          "name": "RightButton",
-          "width": 94.1152,
-          "x": 147,
-          "y": 448,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 202.235,
-          "layer": "GUI",
-          "locked": false,
-          "name": "ArrowButtonsBg",
-          "width": 202.235,
-          "x": 39,
-          "y": 384,
-          "zOrder": -10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 107.992,
-          "layer": "GUI",
-          "locked": false,
-          "name": "JumpButton",
-          "width": 107.992,
-          "x": 659,
-          "y": 457,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -2213,29 +2153,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 42,
+          "height": 39,
           "layer": "",
           "locked": false,
           "name": "kolo",
-          "width": 36,
-          "x": -67,
-          "y": 523,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BulletImpact",
-          "width": 0,
-          "x": 335.289,
-          "y": 316.5,
-          "zOrder": 27,
+          "width": 34,
+          "x": -63,
+          "y": 524,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4390,7 +4315,7 @@
           "friction": 10,
           "gravityEditionSimpleMode": true,
           "greenParam": "Random",
-          "maxParticleNb": 10,
+          "maxParticleNb": 20,
           "name": "Dollars",
           "particleAlpha1": 200,
           "particleAlpha2": 0,
@@ -4422,7 +4347,7 @@
           "rendererType": "Quad",
           "sizeParam": "Mutable",
           "tags": "",
-          "tank": 20,
+          "tank": -1,
           "textureParticleName": "dollar-bill.png",
           "type": "ParticleSystem::ParticleEmitter",
           "zoneRadius": 3,
@@ -6461,11 +6386,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ParticleSystem::Tank"
               },
               "parameters": [
                 "Dollars",
-                ""
+                "=",
+                "1"
               ],
               "subInstructions": []
             },
