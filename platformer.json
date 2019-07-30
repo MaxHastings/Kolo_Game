@@ -800,6 +800,15 @@
         "metadata": "",
         "name": "Strong_Punch.wav",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kolo-follow-sleep.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kolo-follow-sleep.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4557,6 +4566,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "kolo-follow-sleep.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7284,6 +7322,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjet"
                   },
                   "parameters": [
@@ -7524,6 +7574,30 @@
                     "kolo",
                     "Physics2",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
