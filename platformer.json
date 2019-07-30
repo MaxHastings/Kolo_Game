@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/Users/maxhastings/Documents/GDevelop projects/Kolo_Game/platformer.json",
+    "projectFile": "F:\\Documents\\GDevelop projects\\Kolo_Game\\platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -766,6 +766,40 @@
         "name": "blood-spatter.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "z.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "z.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doxy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doxy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Strong_Punch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Strong_Punch.wav",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -798,7 +832,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1.144
+        "zoomFactor": 1.072
       },
       "objectsGroups": [
         {
@@ -874,21 +908,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "width": 0,
-          "x": 37.1229,
-          "y": 290.508,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -991,7 +1010,7 @@
           "layer": "",
           "locked": false,
           "name": "TiledGrassPlatform",
-          "width": 4222.89,
+          "width": 6322,
           "x": -583.046,
           "y": 570,
           "zOrder": 3,
@@ -1296,21 +1315,6 @@
               "value": 1
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "PlayerHitBox",
-          "width": 0,
-          "x": 49.2766,
-          "y": 291.738,
-          "zOrder": 1,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -2147,14 +2151,134 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 27,
+          "height": 579,
           "layer": "",
           "locked": false,
-          "name": "gun",
-          "width": 73,
-          "x": 101,
-          "y": 330,
-          "zOrder": 24,
+          "name": "TiledCastlePlatform",
+          "width": 308,
+          "x": 5400,
+          "y": -8,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 3285,
+          "y": 499,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 3911,
+          "y": 499,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Jumpthru",
+          "width": 0,
+          "x": 4308,
+          "y": 426,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Jumpthru",
+          "width": 0,
+          "x": 4400,
+          "y": 356,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 4513,
+          "y": 308,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 4584,
+          "y": 308,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 4871,
+          "y": 523,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2167,8 +2291,8 @@
           "locked": false,
           "name": "kolo",
           "width": 34,
-          "x": -63,
-          "y": 524,
+          "x": 4989,
+          "y": 522,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -2177,14 +2301,169 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 36,
+          "height": 39,
           "layer": "",
           "locked": false,
-          "name": "HealthBar",
-          "width": 127,
-          "x": 389.411,
-          "y": 218.478,
-          "zOrder": 26,
+          "name": "kolo",
+          "width": 34,
+          "x": 5101,
+          "y": 521,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 5203,
+          "y": 518,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 5292,
+          "y": 518,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 4923,
+          "y": 521,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 3911,
+          "y": 430,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 3839,
+          "y": 499,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Platform",
+          "width": 0,
+          "x": 4210,
+          "y": 499,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 3646,
+          "y": 530,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "width": 0,
+          "x": -54,
+          "y": 477,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerHitBox",
+          "width": 0,
+          "x": -40,
+          "y": 476,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "gun",
+          "width": 73,
+          "x": 14,
+          "y": 513,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3975,7 +4254,7 @@
           "variables": [
             {
               "name": "accuracy",
-              "value": "0.25"
+              "value": "0.1"
             }
           ],
           "behaviors": [],
@@ -4020,7 +4299,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "ScreenShot2019-07-27at510",
+              "name": "doxy",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4029,7 +4308,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "bullet.png",
+                      "image": "doxy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4208,6 +4487,29 @@
               "maxSpeed": 200,
               "rotateObject": false,
               "angleOffset": 0
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             },
             {
               "name": "PlatformerObject",
@@ -4531,6 +4833,120 @@
           "zoneRadius": 3,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "additive": false,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 45,
+          "emitterForceMax": 30,
+          "emitterForceMin": 15,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 2,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 300,
+          "name": "Sleeping",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": -50,
+          "particleGravityZ": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 2,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 2,
+          "particleSize2": 4,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "z.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "additive": false,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 90,
+          "emitterForceMax": 85,
+          "emitterForceMin": 45,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 5,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 300,
+          "name": "hearts",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGravityZ": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 30,
+          "particleSize2": 45,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": 5,
+          "textureParticleName": "heart.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -4762,6 +5178,18 @@
                     "health",
                     "=",
                     "100"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "Physics2",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -5790,7 +6218,7 @@
               "parameters": [
                 "Player",
                 "\"fireRate\"",
-                "0.1"
+                "0.2"
               ],
               "subInstructions": []
             }
@@ -5818,7 +6246,7 @@
               "parameters": [
                 "bullet",
                 "gun.Angle() + Random(45 * gun.Variable(accuracy)) - Random(45 * gun.Variable(accuracy))",
-                "1500",
+                "650",
                 "1"
               ],
               "subInstructions": []
@@ -5868,7 +6296,7 @@
               "parameters": [
                 "bullet",
                 "",
-                "0.5"
+                "0.2"
               ],
               "subInstructions": []
             },
@@ -6510,6 +6938,18 @@
                 "wallet"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "FindersKeepers",
+                "kolo"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6555,6 +6995,45 @@
               "parameters": [
                 "FindersKeepers",
                 "\"hide\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "kolo",
+                "health",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "hearts",
+                "0",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "hearts",
+                "kolo"
               ],
               "subInstructions": []
             }
@@ -6612,6 +7091,19 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "kolo",
+                "health",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6623,19 +7115,6 @@
               "parameters": [
                 "bullet",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "kolo",
-                "-bullet.Angle()",
-                "500",
-                "1"
               ],
               "subInstructions": []
             },
@@ -6654,24 +7133,50 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetObjectTimer"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "kolo",
-                "\"force\""
+                "PlatformerObject",
+                ""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "kolo",
-                "health",
-                "-",
-                "1"
+                "Physics2",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Physics2::ApplyImpulse"
+              },
+              "parameters": [
+                "kolo",
+                "Physics2",
+                "cos(ToRad(bullet.Angle())) * 0.5",
+                "sin(ToRad(bullet.Angle())) * 0.5",
+                "bullet.X()",
+                "bullet.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "kolo",
+                "\"force\""
               ],
               "subInstructions": []
             },
@@ -6700,9 +7205,99 @@
                 "BloodSplatter"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "kolo",
+                "health",
+                "-",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Strong_Punch.wav",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "sleeping",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Sleeping",
+                    "kolo.X()",
+                    "kolo.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "kolo",
+                    "Sleeping"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "sleeping",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -6727,16 +7322,134 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "Opacity"
               },
               "parameters": [
                 "kolo",
+                "-",
+                "100*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "kolo",
+                "PlatformerObject",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "kolo",
+                "Pathfinding",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "kolo",
+                "Physics2",
+                "yes"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "FindersKeepers",
+                    "kolo"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "Sleeping",
+                    "kolo"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ParticleSystem::Tank"
+                  },
+                  "parameters": [
+                    "Sleeping",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "kolo",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FindersKeepers",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -6751,36 +7464,133 @@
               "parameters": [
                 "kolo",
                 "\"force\"",
-                "0.25"
+                "4"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "Arreter"
-              },
-              "parameters": [
-                "kolo"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "health",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "Pathfinding",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "PlatformerObject",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "Physics2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "kolo",
-                "Pathfinding",
-                "yes"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "sleeping",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "Sleeping",
+                    "kolo"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ParticleSystem::Tank"
+                  },
+                  "parameters": [
+                    "Sleeping",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "sleeping",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -6877,13 +7687,63 @@
               },
               "parameters": [
                 "",
-                "BloodSplatter",
+                "Sleeping",
                 "kolo"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Sleeping",
+                "kolo",
+                "0",
+                "-90"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "kolo",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "hearts",
+                "kolo"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "hearts",
+                "kolo",
+                "0",
+                "-90"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -7644,6 +8504,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "SlimeWalk",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -7766,6 +8638,42 @@
                 "",
                 "Player.X() + 25",
                 "Player.Y() + 40"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "kolo",
+                "kolo",
+                "",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "kolo",
+                "kolo",
+                "50"
               ],
               "subInstructions": []
             }
