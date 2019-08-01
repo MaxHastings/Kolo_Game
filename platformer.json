@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "F:\\Documents\\GDevelop projects\\Kolo_Game\\platformer.json",
+    "projectFile": "/Users/maxhastings/Documents/GDevelop projects/Kolo_Game/platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -809,6 +809,15 @@
         "name": "kolo-follow-sleep.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KoloArea.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KoloArea.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -906,6 +915,14 @@
             },
             {
               "name": "Jumpthru"
+            }
+          ]
+        },
+        {
+          "name": "KoloGroup",
+          "objects": [
+            {
+              "name": "kolo"
             }
           ]
         }
@@ -1740,7 +1757,7 @@
           "locked": false,
           "name": "BackgroundObjects",
           "width": 0,
-          "x": -43,
+          "x": -58,
           "y": 501,
           "zOrder": 1,
           "numberProperties": [
@@ -2440,8 +2457,8 @@
           "locked": false,
           "name": "Player",
           "width": 0,
-          "x": -54,
-          "y": 477,
+          "x": 10.8206,
+          "y": 472.348,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -2455,8 +2472,8 @@
           "locked": false,
           "name": "PlayerHitBox",
           "width": 0,
-          "x": -40,
-          "y": 476,
+          "x": 23.8206,
+          "y": 473.348,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2470,8 +2487,8 @@
           "locked": false,
           "name": "gun",
           "width": 73,
-          "x": 14,
-          "y": 513,
+          "x": 82.8206,
+          "y": 510.348,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -4485,19 +4502,6 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 300,
-              "allowDiagonals": true,
-              "angularMaxSpeed": 0,
-              "cellHeight": 15,
-              "cellWidth": 15,
-              "extraBorder": 0,
-              "maxSpeed": 200,
-              "rotateObject": false,
-              "angleOffset": 0
-            },
-            {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
@@ -5232,6 +5236,14 @@
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -6916,23 +6928,75 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "kolo",
-                "Pathfinding",
-                "",
-                "wallet.X()",
-                "wallet.Y()"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "kolo",
+                    ">",
+                    "wallet.X()"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "<",
+                    "wallet.X()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -7152,18 +7216,6 @@
               },
               "parameters": [
                 "bullet",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "kolo",
-                "Pathfinding",
                 ""
               ],
               "subInstructions": []
@@ -7400,18 +7452,6 @@
               },
               "parameters": [
                 "kolo",
-                "Pathfinding",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "kolo",
                 "Physics2",
                 "yes"
               ],
@@ -7541,18 +7581,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "kolo",
-                    "Pathfinding",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -7726,8 +7754,8 @@
               "parameters": [
                 "HealthBar",
                 "kolo",
-                "30",
-                "-105"
+                "0",
+                "0"
               ],
               "subInstructions": []
             },
@@ -7738,10 +7766,10 @@
               },
               "parameters": [
                 "HealthBar",
-                "HealthBar",
-                "0",
+                "-25",
+                "-25",
                 "50 * ( kolo.Variable(health) * 0.01)",
-                "10"
+                "-20"
               ],
               "subInstructions": []
             }
@@ -7861,10 +7889,6 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior"
-        },
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "PathfindingObstacle",
@@ -8698,25 +8722,90 @@
                 ""
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "inverted": false,
-                "value": "PathfindingBehavior::SetDestination"
+                "inverted": true,
+                "value": "Distance"
               },
               "parameters": [
                 "kolo",
-                "Pathfinding",
-                "",
-                "Player.X() + 25",
-                "Player.Y() + 40"
+                "wallet",
+                "600",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "kolo",
+                    ">",
+                    "Player.X()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "<",
+                    "Player.X()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "kolo",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -8747,7 +8836,7 @@
               "parameters": [
                 "kolo",
                 "kolo",
-                "50"
+                "no"
               ],
               "subInstructions": []
             }
@@ -8944,7 +9033,126 @@
       ]
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "NewExtension",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "Function",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Group"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "Group",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "",
+              "name": "",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": [
+            {
+              "name": "Group",
+              "objects": []
+            }
+          ]
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "",
+          "name": "MyBehavior",
+          "objectType": "Sprite",
+          "eventsFunctions": [],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Property"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
