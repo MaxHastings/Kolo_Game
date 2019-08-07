@@ -908,6 +908,222 @@
         "name": "Kolo_Boss_anim\\Kolo_Boss_prod_7.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "explosion/tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion/tile023.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -919,8 +1135,8 @@
     {
       "b": 247,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "Final_32Level",
+      "name": "Final Level",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -1013,6 +1229,9 @@
           "objects": [
             {
               "name": "kolo"
+            },
+            {
+              "name": "KoloBoss"
             }
           ]
         }
@@ -2470,10 +2689,90 @@
           "height": 0,
           "layer": "",
           "locked": false,
+          "name": "KoloBoss",
+          "width": 0,
+          "x": 4984,
+          "y": 58,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "spawnSize",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "KoloBossName",
+          "width": 0,
+          "x": 340,
+          "y": 50,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "GUI",
+          "locked": false,
+          "name": "HealthBarKoloBoss",
+          "width": 350,
+          "x": 243,
+          "y": 106,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "GUI",
+          "locked": false,
+          "name": "PlayerHealthBar",
+          "width": 178,
+          "x": 338,
+          "y": 9,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "kolo",
+          "width": 34,
+          "x": 4739,
+          "y": 530,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
           "name": "Player",
           "width": 0,
-          "x": 4016,
-          "y": 472,
+          "x": -39,
+          "y": 477,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -2487,8 +2786,8 @@
           "locked": false,
           "name": "PlayerHitBox",
           "width": 0,
-          "x": 4031,
-          "y": 472,
+          "x": -24,
+          "y": 477,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2502,32 +2801,12 @@
           "locked": false,
           "name": "gun",
           "width": 73,
-          "x": 4090,
-          "y": 505,
+          "x": 35,
+          "y": 510,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "KoloBoss",
-          "width": 0,
-          "x": 4984,
-          "y": 58,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "spawnSize",
-              "value": "3"
-            }
-          ]
         }
       ],
       "objects": [
@@ -5437,6 +5716,497 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "KoloBossName",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Kolo Boss",
+          "font": "",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "HealthBarKoloBoss",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 0,
+            "g": 0,
+            "r": 250
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false
+        },
+        {
+          "name": "PlayerHealthBar",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 12,
+            "r": 0
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false
+        },
+        {
+          "name": "explosion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile012.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile013.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile014.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile015.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile016.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile017.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile018.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile019.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile020.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile021.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile022.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile023.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion/tile024.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5583,6 +6353,41 @@
                   },
                   "parameters": [
                     "GooText"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "KoloBoss",
+                    "health",
+                    "=",
+                    "2000"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "health",
+                    "=",
+                    "100"
                   ],
                   "subInstructions": []
                 }
@@ -7123,6 +7928,19 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "health",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -7170,6 +7988,19 @@
               "parameters": [
                 "PlayerHitBox",
                 "\"force\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "health",
+                "-",
+                "5"
               ],
               "subInstructions": []
             }
@@ -7742,7 +8573,7 @@
               },
               "parameters": [
                 "bullet",
-                "kolo",
+                "KoloGroup",
                 "",
                 "",
                 ""
@@ -7755,7 +8586,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "kolo",
+                "KoloGroup",
                 "health",
                 ">",
                 "0"
@@ -7846,7 +8677,7 @@
               },
               "parameters": [
                 "",
-                "kolo",
+                "KoloGroup",
                 "BloodSplatter"
               ],
               "subInstructions": []
@@ -7857,10 +8688,10 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "kolo",
+                "KoloGroup",
                 "health",
                 "-",
-                "10"
+                "20"
               ],
               "subInstructions": []
             },
@@ -7875,6 +8706,28 @@
                 "",
                 "50",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "KoloGroup",
+                "\"255;0;0\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "KoloGroup",
+                "\"flash\""
               ],
               "subInstructions": []
             }
@@ -7964,10 +8817,43 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "KoloGroup",
+                "\"flash\"",
+                "0.1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "KoloGroup",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "VarObjet"
               },
               "parameters": [
-                "kolo",
+                "KoloGroup",
                 "health",
                 "<=",
                 "0"
@@ -7982,7 +8868,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "kolo",
+                "KoloGroup",
                 "-",
                 "100*TimeDelta()"
               ],
@@ -8025,21 +8911,9 @@
                     "value": "Opacity"
                   },
                   "parameters": [
-                    "kolo",
+                    "KoloGroup",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "FindersKeepers",
-                    "kolo"
                   ],
                   "subInstructions": []
                 }
@@ -8053,6 +8927,18 @@
                   "parameters": [
                     "",
                     "Sleeping",
+                    "kolo"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "FindersKeepers",
                     "kolo"
                   ],
                   "subInstructions": []
@@ -8075,7 +8961,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "kolo",
+                    "KoloGroup",
                     ""
                   ],
                   "subInstructions": []
@@ -8402,6 +9288,244 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PrimitiveDrawing::Rectangle"
+              },
+              "parameters": [
+                "PlayerHealthBar",
+                "0",
+                "0",
+                "200 * Player.Variable(health) * 0.01",
+                "15"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "health",
+                "<=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NbObjet"
+              },
+              "parameters": [
+                "explosion",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "explosion",
+                "=",
+                "40"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "PlayerHitBox",
+                "PlatformerObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "gun",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "explosion",
+                "Player.X() - 250",
+                "Player.Y() - 250",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "explosion",
+                "Player.X() + 35",
+                "Player.Y() + 50",
+                "0",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "Player"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"dead\"",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose Screen\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Sprite"
+              },
+              "parameters": [
+                "explosion",
+                "=",
+                "6"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "explosion"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "explosion"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -8466,11 +9590,255 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Win_32Screen",
+      "name": "Win Screen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "WinText",
+          "width": 0,
+          "x": 267,
+          "y": 280,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "WinText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "You Win! Click to play again.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Final Level\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Lose_32Screen",
+      "name": "Lose Screen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LostText",
+          "width": 0,
+          "x": 280,
+          "y": 208,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "LostText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "You lost scrub! Click to play again.",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Final Level\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Final Level",
       "lastChangeTimeStamp": 1383154438,
       "name": "EnemiesManagement",
       "events": [
@@ -9139,7 +10507,7 @@
                 "value": "ObjectTimer"
               },
               "parameters": [
-                "SlimeWalk",
+                "kolo",
                 "\"canThrow\"",
                 "3"
               ],
@@ -9152,21 +10520,33 @@
               },
               "parameters": [
                 "Player",
-                "SlimeWalk",
-                "500",
+                "kolo",
+                "800",
                 ""
               ],
               "subInstructions": []
             },
             {
               "type": {
-                "inverted": true,
-                "value": "Animation"
+                "inverted": false,
+                "value": "VarObjet"
               },
               "parameters": [
-                "SlimeWalk",
-                "=",
-                "1"
+                "kolo",
+                "health",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "kolo",
+                "Physics2"
               ],
               "subInstructions": []
             }
@@ -9180,8 +10560,8 @@
               "parameters": [
                 "",
                 "packOfCigs",
-                "SlimeWalk.X()",
-                "SlimeWalk.Y()",
+                "kolo.X()",
+                "kolo.Y()",
                 ""
               ],
               "subInstructions": []
@@ -9194,7 +10574,7 @@
               "parameters": [
                 "packOfCigs",
                 "Physics2",
-                "2",
+                "3",
                 "Player.X()",
                 "Player.Y()",
                 "packOfCigs.Physics2::MassCenterX()",
@@ -9208,7 +10588,7 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
-                "SlimeWalk",
+                "kolo",
                 "\"canThrow\""
               ],
               "subInstructions": []
@@ -9240,7 +10620,7 @@
               "parameters": [
                 "packOfCigs",
                 "\"life\"",
-                "5"
+                "3"
               ],
               "subInstructions": []
             }
@@ -9819,20 +11199,8 @@
               "parameters": [
                 "Player",
                 "KoloBoss",
-                "400",
+                "800",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "KoloBoss",
-                "\"spawn\"",
-                "5"
               ],
               "subInstructions": []
             }
@@ -9841,12 +11209,36 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "PrimitiveDrawing::Rectangle"
               },
               "parameters": [
-                "KoloBoss",
-                "=",
-                "1"
+                "HealthBarKoloBoss",
+                "0",
+                "0",
+                "500 * (KoloBoss.Variable(health) * 1/2000)",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "KoloBossName",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "HealthBarKoloBoss",
+                ""
               ],
               "subInstructions": []
             }
@@ -9860,15 +11252,30 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AnimationEnded"
+                    "value": "ObjectTimer"
                   },
                   "parameters": [
-                    "KoloBoss"
+                    "KoloBoss",
+                    "\"spawn\"",
+                    "5"
                   ],
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "KoloBoss",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -9878,166 +11285,186 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarObjet"
+                        "value": "AnimationEnded"
                       },
                       "parameters": [
-                        "KoloBoss",
-                        "i",
-                        "<",
-                        "KoloBoss.Variable(spawnSize)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ObjectTimer"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "\"spawnPause\"",
-                        "0.5"
+                        "KoloBoss"
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "kolo",
-                        "KoloBoss.X() + 60",
-                        "KoloBoss.Y() + 60",
-                        ""
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "i",
+                            "<",
+                            "KoloBoss.Variable(spawnSize)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectTimer"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "\"spawnPause\"",
+                            "0.5"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "kolo",
+                            "KoloBoss.X() + 60",
+                            "KoloBoss.Y() + 60",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "kolo",
+                            "spawned",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "kolo",
+                            "=",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "kolo",
+                            "=",
+                            "0.13"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "i",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "\"spawnPause\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "kolo",
-                        "spawned",
-                        "=",
-                        "1"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "i",
+                            "<",
+                            "KoloBoss.Variable(spawnSize)"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "kolo",
-                        "=",
-                        "25"
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "\"spawn\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "KoloBoss",
+                            "i",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeScale"
-                      },
-                      "parameters": [
-                        "kolo",
-                        "=",
-                        "0.13"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "i",
-                        "+",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "\"spawnPause\""
-                      ],
-                      "subInstructions": []
+                      "events": []
                     }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "i",
-                        "<",
-                        "KoloBoss.Variable(spawnSize)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "\"spawn\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "=",
-                        "2"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "KoloBoss",
-                        "i",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -10155,7 +11582,7 @@
               "parameters": [
                 "Player",
                 "KoloBoss",
-                "400",
+                "800",
                 ""
               ],
               "subInstructions": []
@@ -10171,6 +11598,60 @@
                 "KoloBoss",
                 "=",
                 "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "HealthBarKoloBoss"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "KoloBossName"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NbObjet"
+              },
+              "parameters": [
+                "KoloBoss",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Win Screen\"",
+                "yes"
               ],
               "subInstructions": []
             }
