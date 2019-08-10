@@ -1124,6 +1124,15 @@
         "name": "explosion/tile023.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doxy_info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doxy_info.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2807,6 +2816,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 61,
+          "layer": "GUI",
+          "locked": false,
+          "name": "Doxy_Image",
+          "width": 34,
+          "x": 21,
+          "y": 60,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "Ammo",
+          "width": 0,
+          "x": 66,
+          "y": 67,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "Doxy_Text",
+          "width": 0,
+          "x": 25,
+          "y": 89,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4208,6 +4262,44 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Ammo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "x 0",
+          "font": "Bimbo_JVE.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Doxy_Text",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Doxy",
+          "font": "Bimbo_JVE.ttf",
+          "characterSize": 15,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         },
         {
           "bold": false,
@@ -6207,6 +6299,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Doxy_Image",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "doxy_info.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6388,6 +6519,18 @@
                     "health",
                     "=",
                     "100"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Ammo",
+                    "=",
+                    "300"
                   ],
                   "subInstructions": []
                 }
@@ -7639,6 +7782,18 @@
                 "0.2"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Ammo",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -7726,6 +7881,18 @@
               "parameters": [
                 "bullet",
                 "\"life\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Ammo",
+                "-",
+                "1"
               ],
               "subInstructions": []
             }
@@ -11661,7 +11828,7 @@
       ]
     },
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Final Level",
       "lastChangeTimeStamp": 1383151997,
       "name": "ObjectsManagement",
       "events": [
@@ -11820,7 +11987,7 @@
       ]
     },
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Final Level",
       "lastChangeTimeStamp": 1383151997,
       "name": "GUIManagement",
       "events": [
@@ -11839,6 +12006,27 @@
                 "Score",
                 "=",
                 "\"x \"+ToString(Variable(Score))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Ammo",
+                "=",
+                "\"x \"+ToString(Variable(Ammo))"
               ],
               "subInstructions": []
             }
